@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'terraform/**'
+      - '.github/workflows/**'
   pull_request:
     paths:
       - 'terraform/**'
