@@ -28,9 +28,14 @@ resource "aws_security_group" "infra_zero_sg" {
 }
 
 # Key Pair
+resource "tls_private_key" "infra_zero_key" {
+  algorithm = "RSA"
+  rsa_bits  = 4096
+}
+
 resource "aws_key_pair" "infra_zero_key" {
   key_name   = "infra-zero-key"
-  public_key = file("infra-zero-key.pub")
+  public_key = tls_private_key.infra_zero_key.public_key_openssh
 }
 
 # EC2 Instance
