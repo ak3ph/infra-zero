@@ -4,7 +4,7 @@
 
 ---
 
-##  / Problem
+## Problem
 
 Setting up cloud infrastructure manually is:
 
@@ -13,9 +13,12 @@ Setting up cloud infrastructure manually is:
 * not reproducible
 
 This project solves that by:
-👉 Defining infrastructure as code
-👉 Automating provisioning
-👉 Making deployments consistent and repeatable
+
+→ Defining infrastructure as code
+
+→ Automating provisioning
+
+→ Making deployments consistent and repeatable
 
 ---
 
@@ -145,6 +148,10 @@ On every push:
 
 ## Author
 
-Yash Thakur
-🔗 [https://ak3ph.dev](https://ak3ph.dev)
-🔗 [https://github.com/ak3ph](https://github.com/ak3ph)
+<!--- Yash Thakur --->
+
+[Yash Thakur](https://ak3ph.dev)
+
+<!--- → [portfolio](https://ak3ph.dev) --->
+
+<!--- → [linkedin](https://www.linkedin.com/in/ak3ph/) --->
